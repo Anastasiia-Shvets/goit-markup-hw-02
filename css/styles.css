@@ -12,7 +12,9 @@ a {
 
 
 /*==============HEADER===============*/
-.header {}
+.header {
+    color: #FFFFFF;
+}
 
 .header-navigation {}
 
@@ -115,11 +117,11 @@ a {
 
 /**===============FEATURES==============*/
 
-.features {}
-
-.features-list {
+.features {
     background-color: #FFFFFF;
 }
+
+.features-list {}
 
 .features-item {}
 
@@ -163,11 +165,11 @@ a {
         font-style: normal;
 }
 
-.team-list {
+.team-list {}
+
+.team-item {
     background-color: #FFFFFF;
 }
-
-.team-item {}
 
 .team-image {}
 
