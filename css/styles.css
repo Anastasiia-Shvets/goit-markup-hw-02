@@ -1,5 +1,7 @@
 body {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background: #FFF;
 }
 ul {
     list-style: none;
@@ -16,23 +18,25 @@ a {
 
 .header-logo {
     color: #2E2F42;
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
-        /* 116.667% */
+        line-height: 1.17;
         letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 .header-logo-var{
-    color: #4D5AE5;
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px; 
 }
 
 .header-menu-list {}
 
 .header-menu-item {
     color: #2E2F42;
-        font-family: Roboto;
+        font-family: Roboto,sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -49,12 +53,10 @@ a {
 
 .header-address-link {
     color: #434455;
-        font-family: Roboto;
+        font-family: Roboto,sans-serif;
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
         line-height: 1.5;
-        /* 150% */
         letter-spacing: 0.02em;
 }
 /**===================================*/
@@ -67,7 +69,7 @@ a {
 
 .hero-title {
     color: #FFF;
-        font-family: Roboto;
+        font-family: Roboto,sans-serif;
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
@@ -77,6 +79,7 @@ a {
 .hero-btn {
         background-color: #4D5AE5;
         color: #FFF;
+        cursor: pointer;
 }
 
 
@@ -91,7 +94,7 @@ a {
 
 .features-subtitel {
     color: #2E2F42;
-        font-family: Roboto;
+        font-family: Roboto,sans-serif;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
@@ -100,7 +103,7 @@ a {
 
 .features-item-text {
     color: #434455;
-        font-family: Roboto;
+        font-family: Roboto,sans-serif;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
@@ -118,7 +121,7 @@ a {
 .team-titel {
     color: #2E2F42;
         text-align: center;
-        font-family: Roboto;
+        font-family: Roboto,sans-serif;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.1;
@@ -133,7 +136,7 @@ a {
 
 .team-next-title {
     color: #2E2F42;
-        font-family: Roboto;
+        font-family: Roboto,sans-serif;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
@@ -142,7 +145,7 @@ a {
 
 .team-item-text {
     color: #434455;
-        font-family: Roboto;
+        font-family: Roboto,sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -170,7 +173,7 @@ a {
 
 .portfolio-name {
     color: #2E2F42;
-        font-family: Roboto;
+        font-family: Roboto,sans-serif;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
@@ -179,7 +182,7 @@ a {
 
 .portfolio-text {
     color: #434455;
-        font-family: Roboto;
+        font-family: Roboto,sans-serif;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
@@ -193,7 +196,7 @@ a {
 
 .footer-logo {
     color:#F4F4FD ;
-        font-family: Raleway;
+        font-family: Raleway,sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.1;
@@ -206,7 +209,7 @@ a {
 
 .footer-text {
     color: #F4F4FD;
-        font-family: Roboto;
+        font-family: Roboto,sans-serif;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
