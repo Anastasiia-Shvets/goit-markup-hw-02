@@ -18,7 +18,7 @@ a {
 
 .header-logo {
     color: #4D5AE5;
-        font-family: Raleway sans-serif;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
@@ -42,11 +42,15 @@ a {
 
 .header-menu-item {
     color: #2E2F42;
-    font-family: Roboto sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.header-menu-item:hover,
+.header-menu-item:focus {
+    color: #404BBF;
 }
 
 .header-menu-link {}
@@ -61,13 +65,14 @@ a {
 
 .header-address-link {
     color: #434455;
-        font-family: Roboto sans-serif;
+        font-family: Roboto, sans-serif;
         font-size: 16px;
         font-style: normal;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
-.header-address-link:hover {
+.header-address-link:hover, 
+.header-address-link:focus {
     color: #404BBF;
 }
 /**===================================*/
@@ -100,33 +105,37 @@ a {
         background-color: #4D5AE5;
         cursor: pointer;
 }
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF
+}
 
 /**=======================================*/
 
 
 /**===============FEATURES==============*/
 
-.features {
+.features {}
+
+.features-list {
     background-color: #FFFFFF;
 }
-
-.features-list {}
 
 .features-item {}
 
 .features-subtitel {
     color: #2E2F42;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .features-item-text {
     color: #434455;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .features-menu-item {}
