@@ -66,7 +66,7 @@ a {
 
 .header-menu-link:hover,
 .header-menu-link:focus
-.header-menu-link:active: {
+.header-menu-link:active {
     color: #404BBF;
 }
 
@@ -86,7 +86,7 @@ a {
 }
 .header-address-link:hover, 
 .header-address-link:focus,
-.header-address-link:active: {
+.header-address-link:active {
     color: #404BBF;
 }
 /**===================================*/
