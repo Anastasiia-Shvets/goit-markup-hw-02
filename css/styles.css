@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background: #FFF;
+    background-color: #FFFFFF;
 }
 ul {
     list-style: none;
@@ -17,34 +17,32 @@ a {
 .header-navigation {}
 
 .header-logo {
-    
+    color: #4D5AE5;
+        font-family: Raleway sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
-.header-logo-var{
-    color: #4D5AE5;
-    font-family: Raleway sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-.header-logo-two {
+.header-logo-span{
     color: #2E2F42;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 .header-menu-list {}
 
 .header-menu-item {
     color: #2E2F42;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -66,20 +64,22 @@ a {
         font-family: Roboto sans-serif;
         font-size: 16px;
         font-style: normal;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+}
+.header-address-link:hover {
+    color: #404BBF;
 }
 /**===================================*/
 
 
-/**===========MAIN================*/
+/**===========HERO================*/
 .hero {
     background: #2E2F42;
 }
 
 .hero-title {
-    color: #FFF;
+    color: #FFFFFF;
         text-align: center;
         font-family: Roboto, sans-serif;
         font-size: 56px;
@@ -91,34 +91,30 @@ a {
 }
 
 .hero-btn {
-    color: #FFF;
+    color: #FFFFFF;
         font-family: Roboto, sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        border-radius: 4px;
         background-color: #4D5AE5;
         background-color: #404BBF;
-        cursor: pointer
+        cursor: pointer;
 }
 
+/**=======================================*/
 
+
+/**===============FEATURES==============*/
 
 .features {
-    background-color: #FFF;
+    background-color: #FFFFFF;
 }
 
 .features-list {}
 
-.features-item {
-    display: flex;
-    width: 264px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-}
+.features-item {}
 
 .features-subtitel {
     color: #2E2F42;
@@ -136,21 +132,19 @@ a {
         font-family: Roboto sans-serif;
         font-size: 16px;
         font-style: normal;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02;
         width: 264px;
 }
 
-.features-menu-item {
-    display: flex;
-        width: 264px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
-}
+.features-menu-item {}
 
 
+/**===============================================*/
+
+
+
+/**==================TEAM=================*/
 
 .team {
     background-color: #F4F4FD;
@@ -172,18 +166,9 @@ a {
     background-color: #FFFFFF;
 }
 
-.team-item {
-    display: flex;
-        width: 232px;
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-}
+.team-item {}
 
-.team-image {
-    width: 264px;
-        height: 260px;
-}
+.team-image {}
 
 .team-next-title {
     color: #2E2F42;
@@ -200,13 +185,16 @@ a {
         font-family: Roboto,sans-serif;
         font-size: 16px;
         font-style: normal;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         font-style: normal;
 }
 
+/**=========================================*/
 
+
+
+/**============PORTFOLIO===============*/
 
 
 .portfolio {
@@ -228,11 +216,7 @@ a {
 
 .portfolio-item {}
 
-.portfolio-image {
-    width: 360px;
-    height: 300px;
-    flex-shrink: 0;
-}
+.portfolio-image {}
 
 .portfolio-name {
     color: #2E2F42;
@@ -250,23 +234,18 @@ a {
         font-family: Roboto sans-serif;
         font-size: 16px;
         font-style: normal;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+/**==================================*/
 
+
+/**================FOOTER=============*/
 
 .footer {
-    background-color: #2E2F42;
-    width: 1440px;
-        height: 312px;
-        flex-shrink: 0;
-}
+    background-color: #2E2F42;}
 
-.footer-logo {}
-    
-
-.footer-logo-var {
+.footer-logo {
     color: #4D5AE5;
         font-family: Raleway, sans-serif;
         font-size: 18px;
@@ -276,24 +255,27 @@ a {
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
+    
 
-.footer-logo-two {
+.footer-logo-span {
     color: #F4F4FD;
-    font-family: Raleway sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+        font-family: Raleway sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
+
 
 .footer-text {
     color: #F4F4FD;
         font-family: Roboto,sans-serif;
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        width: 264px;
 }
+
+
+/**==========================================*/
