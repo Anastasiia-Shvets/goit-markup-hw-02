@@ -84,7 +84,8 @@ a {
     letter-spacing: 0.02em;
 }
 .header-address-link:hover, 
-.header-address-link:focus {
+.header-address-link:focus,
+.header-address-link:active: {
     color: #404BBF;
 }
 /**===================================*/
@@ -185,9 +186,7 @@ a {
 
 .team-next-title {
     color: #2E2F42;
-    font-family: Roboto;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
