@@ -65,7 +65,7 @@ a {
 }
 
 .header-menu-link:hover,
-.header-menu-link:focus
+.header-menu-link:focus,
 .header-menu-link:active {
     color: #404BBF;
 }
