@@ -137,7 +137,7 @@ a {
 
 .features-item {}
 
-.features-subtitel {
+.features-subtitle {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -180,12 +180,12 @@ a {
     background-color: #FFFFFF;
 }
 .team-image {}
-.team-next-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+.team-subtitle {
     color: #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
 }
 .team-item-text {
     font-size: 16px;
